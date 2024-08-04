@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --White: hsl(0, 0%, 100%);
+  --grey: hsl(217, 12%, 63%);
+  --light-grey: hsl(218, 17%, 18%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+  --Orange: hsl(25, 97%, 53%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.gusti {
+  display: none;
+}
+
+body {
+  background-color: var(--very-dark-blue);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.public-container {
+  border-radius: 20px;
+  font-family: Overpass;
+  color: var(--white);
+  background-color: var(--dark-blue);
+  margin: 10px;
+  padding: 20px;
+  max-width: 20em;
+  /* width: 420px;d */
+}
+
+.howdid {
+  margin-bottom: 10px;
+  color: var(--White);
+}
+
+.desc {
+  color: var(--grey);
+  margin-bottom: 10px;
+}
+
+.star {
+  background-color: var(--grey);
+  border-radius: 50%;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.tmbl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.active {
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 50%;
+  color: var(--White);
+  background-color: var(--Orange);
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.button {
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 50%;
+  color: var(--very-dark-blue);
+  background-color: var(--grey);
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.tmbl active {
+  background-color: var(--Orange);
+}
+
+.tmbl button:hover {
+  background-color: var(--White);
+}
+
+.submit {
+  color: var(--very-dark-blue);
+  background-color: var(--Orange);
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.submit button {
+  align-items: center;
+  display: flex;
+}
+
+.hidden {
+  border-radius: 20px;
+  font-family: Overpass;
+  color: var(--white);
+  background-color: var(--dark-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 23em;
+  /* display: none; */
+}
+
+.indomilk {
+  display: none;
+}
+
+.yso {
+  color: var(--Orange);
+  background-color: var(--very-dark-blue);
+  border-radius: 25px;
+  padding: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.thx {
+  color: var(--White);
+}
+
+.thx-desc {
+  color: var(--grey);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.attribution {
+  margin-top: 40px;
+  color: var(--White);
+}
